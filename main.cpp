@@ -13,6 +13,8 @@ void print_inf()
 		<< "\t7 - печать кол-ва книг определенного жанра;\n"
 		<< "\t0 - выход;\n";
 	cout << "Ваш выбор: ";
+
+
 }
 
 void do_op(int choice, Libriary* lb)
