@@ -1,0 +1,121 @@
+\doxysection{Libriary Class Reference}
+\hypertarget{class_libriary}{}\label{class_libriary}\index{Libriary@{Libriary}}
+
+
+Класс библиотеки  
+
+
+
+
+{\ttfamily \#include $<$Libriary.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_libriary_a945b9238875f1e57998ad5b04ec70b9f}\label{class_libriary_a945b9238875f1e57998ad5b04ec70b9f} 
+void {\bfseries add\+Book} ()
+\begin{DoxyCompactList}\small\item\em Метод для добавления книги \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_libriary_a63233a79ddbb2cce91fc2485c8b0a63e}{delete\+Book}} (string name)
+\begin{DoxyCompactList}\small\item\em Метод для удаления книги \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_libriary_a1f400201a6f30a7017376430b4ef82c6}{author\+Search}} (string author)
+\begin{DoxyCompactList}\small\item\em Метод для поиска книги по автору \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_libriary_a12502a3270962e4a0b8f34cd5c02b5fe}{genre\+Search}} (string genre)
+\begin{DoxyCompactList}\small\item\em Метод для поиска книги по жанру \end{DoxyCompactList}\item 
+\Hypertarget{class_libriary_a810a93c5b80d60d98d8e67da5d0a3ece}\label{class_libriary_a810a93c5b80d60d98d8e67da5d0a3ece} 
+void {\bfseries print\+Info} ()
+\begin{DoxyCompactList}\small\item\em Печать информации о всех книгах содержащихся в бибилотеке \end{DoxyCompactList}\item 
+\Hypertarget{class_libriary_adea9ddc6db2c39fc7fc72fbe1249a0fe}\label{class_libriary_adea9ddc6db2c39fc7fc72fbe1249a0fe} 
+void {\bfseries print\+Genres\+Amount} ()
+\begin{DoxyCompactList}\small\item\em Метод для печати кол-\/ва книг каждого жанра \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_libriary_ae085158c139a532e14f93f9875495d57}{print\+Books\+For\+Genre\+Amount}} (string genre)
+\begin{DoxyCompactList}\small\item\em Метод для печати кол-\/ва книг определенного жанра \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_libriary}{Libriary}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_libriary_a85ee109b4c0ba78e94cbb409ab842f6c}{get\+Instance}} ()
+\begin{DoxyCompactList}\small\item\em Метод для получения экземпляра класса библиотеки \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Класс библиотеки 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_libriary_a1f400201a6f30a7017376430b4ef82c6}\label{class_libriary_a1f400201a6f30a7017376430b4ef82c6} 
+\index{Libriary@{Libriary}!authorSearch@{authorSearch}}
+\index{authorSearch@{authorSearch}!Libriary@{Libriary}}
+\doxysubsubsection{\texorpdfstring{authorSearch()}{authorSearch()}}
+{\footnotesize\ttfamily void Libriary\+::author\+Search (\begin{DoxyParamCaption}\item[{string}]{author }\end{DoxyParamCaption})}
+
+
+
+Метод для поиска книги по автору 
+
+
+\begin{DoxyParams}{Parameters}
+{\em author} & Имя автора \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_libriary_a63233a79ddbb2cce91fc2485c8b0a63e}\label{class_libriary_a63233a79ddbb2cce91fc2485c8b0a63e} 
+\index{Libriary@{Libriary}!deleteBook@{deleteBook}}
+\index{deleteBook@{deleteBook}!Libriary@{Libriary}}
+\doxysubsubsection{\texorpdfstring{deleteBook()}{deleteBook()}}
+{\footnotesize\ttfamily void Libriary\+::delete\+Book (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})}
+
+
+
+Метод для удаления книги 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & Название книги \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_libriary_a12502a3270962e4a0b8f34cd5c02b5fe}\label{class_libriary_a12502a3270962e4a0b8f34cd5c02b5fe} 
+\index{Libriary@{Libriary}!genreSearch@{genreSearch}}
+\index{genreSearch@{genreSearch}!Libriary@{Libriary}}
+\doxysubsubsection{\texorpdfstring{genreSearch()}{genreSearch()}}
+{\footnotesize\ttfamily void Libriary\+::genre\+Search (\begin{DoxyParamCaption}\item[{string}]{genre }\end{DoxyParamCaption})}
+
+
+
+Метод для поиска книги по жанру 
+
+
+\begin{DoxyParams}{Parameters}
+{\em author} & Название жанра \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_libriary_a85ee109b4c0ba78e94cbb409ab842f6c}\label{class_libriary_a85ee109b4c0ba78e94cbb409ab842f6c} 
+\index{Libriary@{Libriary}!getInstance@{getInstance}}
+\index{getInstance@{getInstance}!Libriary@{Libriary}}
+\doxysubsubsection{\texorpdfstring{getInstance()}{getInstance()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_libriary}{Libriary}} \texorpdfstring{$\ast$}{*} Libriary\+::get\+Instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Метод для получения экземпляра класса библиотеки 
+
+\begin{DoxyReturn}{Returns}
+Указатель на объект класса библиотеки 
+\end{DoxyReturn}
+\Hypertarget{class_libriary_ae085158c139a532e14f93f9875495d57}\label{class_libriary_ae085158c139a532e14f93f9875495d57} 
+\index{Libriary@{Libriary}!printBooksForGenreAmount@{printBooksForGenreAmount}}
+\index{printBooksForGenreAmount@{printBooksForGenreAmount}!Libriary@{Libriary}}
+\doxysubsubsection{\texorpdfstring{printBooksForGenreAmount()}{printBooksForGenreAmount()}}
+{\footnotesize\ttfamily void Libriary\+::print\+Books\+For\+Genre\+Amount (\begin{DoxyParamCaption}\item[{string}]{genre }\end{DoxyParamCaption})}
+
+
+
+Метод для печати кол-\/ва книг определенного жанра 
+
+
+\begin{DoxyParams}{Parameters}
+{\em genre} & Название жанра книги \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Libriary.\+h\item 
+Libriary.\+cpp\end{DoxyCompactItemize}
